@@ -1,6 +1,6 @@
 using Uno.UI.Runtime.Skia;
 
-namespace ScottPlotSample;
+namespace SecondOrder;
 public class Program
 {
     [STAThread]

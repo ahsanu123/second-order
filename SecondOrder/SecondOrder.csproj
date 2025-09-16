@@ -7,16 +7,16 @@
     <UnoSingleProject>true</UnoSingleProject>
 
     <!-- Display name -->
-    <ApplicationTitle>ScottPlot - Uno Platform QuickStart</ApplicationTitle>
+    <ApplicationTitle>Second Order</ApplicationTitle>
     <!-- App Identifier -->
-    <ApplicationId>com.companyname.ScottPlotSample</ApplicationId>
+    <ApplicationId>com.caasperart.SecondOrder</ApplicationId>
     <!-- Versions -->
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
     <ApplicationVersion>1</ApplicationVersion>
     <!-- Package Publisher -->
     <ApplicationPublisher>UnoPlatform</ApplicationPublisher>
     <!-- Package Description -->
-    <Description>ScottPlotSample powered by Uno Platform.</Description>
+    <Description>Second Order Control Learning Software.</Description>
     <!--
       If you encounter this error message:
 

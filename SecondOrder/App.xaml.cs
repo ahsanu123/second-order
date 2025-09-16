@@ -1,8 +1,6 @@
-using System;
-using Microsoft.Extensions.Logging;
 using Uno.Resizetizer;
 
-namespace ScottPlotSample;
+namespace SecondOrder;
 public partial class App : Application
 {
     /// <summary>

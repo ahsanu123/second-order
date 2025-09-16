@@ -1,7 +1,7 @@
-﻿<Page x:Class="ScottPlotSample.MainPage"
+﻿<Page x:Class="SecondOrder.MainPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:local="using:ScottPlotSample"
+      xmlns:local="using:SecondOrder"
       xmlns:ScottPlot="using:ScottPlot.WinUI">
 
   <ScottPlot:WinUIPlot x:Name="WinUIPlot1" />

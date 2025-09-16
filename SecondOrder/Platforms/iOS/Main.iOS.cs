@@ -1,6 +1,6 @@
 using UIKit;
 
-namespace ScottPlotSample.MacCatalyst;
+namespace SecondOrder.iOS;
 public class EntryPoint
 {
     // This is the main entry point of the application.

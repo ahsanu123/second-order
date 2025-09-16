@@ -1,6 +1,6 @@
 using ScottPlot;
 
-namespace ScottPlotSample;
+namespace SecondOrder;
 
 public sealed partial class MainPage : Page
 {

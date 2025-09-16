@@ -1,4 +1,4 @@
-namespace ScottPlotSample;
+namespace SecondOrder;
 
 public class Program
 {
