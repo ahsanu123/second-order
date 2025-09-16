@@ -1,3 +1,5 @@
+using System;
+using Microsoft.Extensions.Logging;
 using Uno.Resizetizer;
 
 namespace SecondOrder;
@@ -90,7 +92,7 @@ public partial class App : Application
             builder.AddFilter("Microsoft", LogLevel.Warning);
 
             // Generic Xaml events
-            // builder.AddFilter("Microsoft.UI.Xaml", LogLevel.Debug );
+            // builder.AddFilter("Microsoft.UI.Xaml", LogLevel.Debug);
             // builder.AddFilter("Microsoft.UI.Xaml.VisualStateGroup", LogLevel.Debug );
             // builder.AddFilter("Microsoft.UI.Xaml.StateTriggerBase", LogLevel.Debug );
             // builder.AddFilter("Microsoft.UI.Xaml.UIElement", LogLevel.Debug );

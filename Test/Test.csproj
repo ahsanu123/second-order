@@ -1,0 +1,32 @@
+﻿<Project Sdk="Uno.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0-windows10.0.22621;net8.0-desktop</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+
+    <UnoFeatures>
+    </UnoFeatures>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <WinAppSdkVersion>1.5.240802000</WinAppSdkVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SecondOrder\SecondOrder.csproj" />
+  </ItemGroup>
+
+</Project>
