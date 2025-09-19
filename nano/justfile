@@ -1,0 +1,13 @@
+# run desktop
+rd:
+  dotnet run \
+    --launch-profile "Nano (Desktop)" \
+    --project Nano  \
+    --framework "net8.0-desktop"
+
+# build desktop
+bd:
+  dotnet build \
+    --launch-profile "Nano (Desktop)" \
+    --project Nano  \
+    --framework "net8.0-desktop"
