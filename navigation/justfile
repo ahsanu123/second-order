@@ -1,0 +1,7 @@
+# run web
+rw:
+	dotnet run --project Navigation --framework net8.0-browserwasm
+
+# run desktop
+rd:
+	dotnet run --project Navigation --framework net8.0-desktop
