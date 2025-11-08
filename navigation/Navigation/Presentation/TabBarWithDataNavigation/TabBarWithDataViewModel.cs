@@ -21,10 +21,20 @@ public partial class TabBarWithDataViewModel
 	}
 
 	[RelayCommand]
-	private async Task GoToFirstTab()
-		=> await _navigator.NavigateRouteAsync(this, route: "TBDataOne", Qualifiers.Nested, data: Entity);
+	private async Task GoToFirstTab() =>
+		await _navigator.NavigateRouteAsync(
+			this,
+			route: "TBDataOne",
+			Qualifiers.Nested,
+			data: Entity
+		);
 
 	[RelayCommand]
-	private async Task GoToSecondTab()
-		=> await _navigator.NavigateRouteAsync(this, route: "TBDataTwo", qualifier: Qualifiers.Nested, data: Entity);
+	private async Task GoToSecondTab() =>
+		await _navigator.NavigateRouteAsync(
+			this,
+			route: "TBDataTwo",
+			qualifier: Qualifiers.Nested,
+			data: Entity
+		);
 }

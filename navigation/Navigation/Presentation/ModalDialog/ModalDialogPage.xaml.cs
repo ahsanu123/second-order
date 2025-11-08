@@ -6,5 +6,4 @@ public sealed partial class ModalDialogPage : Page
 	{
 		this.InitializeComponent();
 	}
-
 }

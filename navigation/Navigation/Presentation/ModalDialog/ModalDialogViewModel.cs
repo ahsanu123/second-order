@@ -11,12 +11,20 @@ public partial class ModalDialogViewModel : ObservableObject
 	}
 
 	[RelayCommand]
-	private async Task ShowFlyout()
-		=> await _navigator.NavigateRouteAsync(this, route: "ModalDialogSecond", qualifier: Qualifiers.Dialog);
+	private async Task ShowFlyout() =>
+		await _navigator.NavigateRouteAsync(
+			this,
+			route: "ModalDialogSecond",
+			qualifier: Qualifiers.Dialog
+		);
 
 	[RelayCommand]
-	private async Task ShowContentDialog()
-		=> await _navigator.NavigateRouteAsync(this, route: "ModalContentDialog", qualifier: Qualifiers.Dialog);
+	private async Task ShowContentDialog() =>
+		await _navigator.NavigateRouteAsync(
+			this,
+			route: "ModalContentDialog",
+			qualifier: Qualifiers.Dialog
+		);
 
 	[ObservableProperty]
 	private DialogsFlyoutsData flyoutData;
@@ -25,7 +33,13 @@ public partial class ModalDialogViewModel : ObservableObject
 	private async Task FlyoutRequestingDataWithCancel()
 	{
 		var cancelSource = new CancellationTokenSource(TimeSpan.FromSeconds(2));
-		var result = await _navigator.NavigateRouteForResultAsync<Widget>(new object(), "!ModalDialogSecond", cancellation: cancelSource.Token).AsResult();
+		var result = await _navigator
+			.NavigateRouteForResultAsync<Widget>(
+				new object(),
+				"!ModalDialogSecond",
+				cancellation: cancelSource.Token
+			)
+			.AsResult();
 	}
 }
 

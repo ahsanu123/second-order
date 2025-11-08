@@ -8,17 +8,17 @@ public partial class ComplexFlyoutOneViewModel
 
 	public string? Name { get; set; }
 
-	public DialogsFlyoutsData[] Items => new[]
-	{
-		new DialogsFlyoutsData(),
-		new DialogsFlyoutsData(),
-		new DialogsFlyoutsData(),
-		new DialogsFlyoutsData()
-	};
+	public DialogsFlyoutsData[] Items =>
+		new[]
+		{
+			new DialogsFlyoutsData(),
+			new DialogsFlyoutsData(),
+			new DialogsFlyoutsData(),
+			new DialogsFlyoutsData(),
+		};
 
 	public ComplexFlyoutOneViewModel(INavigator navigator)
 	{
-
 		Navigator = navigator;
 
 		CloseCommand = new AsyncRelayCommand(Close);

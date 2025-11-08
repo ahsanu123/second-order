@@ -1,6 +1,7 @@
 using UIKit;
 
 namespace Navigation.MacCatalyst;
+
 public class EntryPoint
 {
 	// This is the main entry point of the application.

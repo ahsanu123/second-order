@@ -4,8 +4,7 @@ public class ShellViewModel
 {
 	private readonly INavigator _navigator;
 
-	public ShellViewModel(
-		INavigator navigator)
+	public ShellViewModel(INavigator navigator)
 	{
 		_navigator = navigator;
 		_ = Start();
