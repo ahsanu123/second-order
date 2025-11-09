@@ -1,0 +1,14 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:vm="using:avaRoute.ViewModels"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:ScottPlot="clr-namespace:ScottPlot;assembly=ScottPlot.Avalonia"
+             x:DataType="vm:FirstViewModel"
+             x:Class="avaRoute.Views.FirstView">
+    
+    <StackPanel HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+        <ScottPlot:AvaPlot/>
+        <TextBlock Text="Hi, I'm the first view!" />
+        <TextBlock Text="{Binding UrlPathSegment}"/>
+    </StackPanel>
+</UserControl>

@@ -22,7 +22,8 @@
     >
         <TextBlock Classes="h1" Text="My Todo List"/>
         <ScrollViewer Grid.Row="1">
-            <ItemsControl ItemsSource="{Binding TodoItems}">
+       
+            <ItemsControl ItemsSource="{Binding TodoItems}" >
                 <ItemsControl.ItemTemplate>
 
                     <DataTemplate DataType="vm:TodoItemViewModel">
